@@ -1,5 +1,5 @@
 # zadanie 1
-"""
+
 
 f = open("file7.txt", "a")
 
@@ -13,10 +13,10 @@ while i < 5:
 
 f.close()
 
-"""
+
 
 # zadanie 2
-"""
+
 
 f = open("file7.txt", "r")
 
@@ -27,9 +27,9 @@ fruitsList = text.split(";")
 fruitsList.remove("")
 
 f.close()
-"""
+
 # zadanie 3
-"""
+
 
 import os
 
@@ -37,7 +37,7 @@ if os.path.exists("file7.txt"):
   os.remove("file7.txt")
 else:
   print("Ten plik nie istnieje")
-"""
+
 # zadanie 4
 
 f = open("file8.txt", "a")
