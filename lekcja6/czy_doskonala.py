@@ -7,6 +7,7 @@ def czy_doskonala(liczba):
     suma = 1 # każda liczba dzieli się przez jeden
     k = 2 # k przyjmuje kolejne wartości z przedziału [2..sqrt(liczba))
     while k*k < liczba:
+        print(k)
         if liczba % k == 0: # jeśli k jest dzielnikiem liczby liczba
             suma += k + liczba/k # to zwiększ wartość zmiennej suma o dwa dzielniki
         k += 1
